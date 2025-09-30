@@ -1,4 +1,7 @@
+package com.axisbank.account;
+
 public class BankAccount {
+    
     // Private data members (Encapsulation)
     private String name;
     private long accountNumber;

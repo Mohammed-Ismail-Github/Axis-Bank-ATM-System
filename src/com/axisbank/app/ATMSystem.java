@@ -1,3 +1,6 @@
+package com.axisbank.app;
+
+import com.axisbank.account.BankAccount;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -8,7 +11,7 @@ public class ATMSystem {
 
         System.out.println("=== Welcome to Axis Bank ATM System ===");
 
-        // Step 1: Create multiple accounts
+        // Create multiple accounts
         System.out.print("How many accounts do you want to create? ");
         int numAccounts = sc.nextInt();
         sc.nextLine();
@@ -33,7 +36,7 @@ public class ATMSystem {
             System.out.println("Account created successfully for " + name);
         }
 
-        // Step 2: Account selection & operations
+        // Account selection & operations
         while (true) {
             System.out.println("\n=== Account Selection ===");
             for (int i = 0; i < accounts.size(); i++) {
@@ -55,7 +58,7 @@ public class ATMSystem {
 
             BankAccount selectedAccount = accounts.get(choice - 1);
 
-            // Step 3: Operations menu for selected account
+            // Operations menu for selected account
             int option;
             do {
                 System.out.println("\n=== ATM Menu for " + selectedAccount.getName() + " ===");
