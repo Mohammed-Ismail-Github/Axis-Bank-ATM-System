@@ -1,6 +1,6 @@
-package com.axisbank.app;
+package Assignment_2.com.axisbank.app;
 
-import com.axisbank.account.BankAccount;
+import Assignment_2.com.axisbank.account.BankAccount;
 import java.util.ArrayList;
 import java.util.Scanner;
 
