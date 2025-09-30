@@ -1,4 +1,4 @@
-package com.axisbank.account;
+package Assignment_2.com.axisbank.account;
 
 public class BankAccount {
     
